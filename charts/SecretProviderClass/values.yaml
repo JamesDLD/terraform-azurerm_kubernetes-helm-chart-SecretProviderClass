@@ -1,0 +1,8 @@
+# Reference: Provide an identity to access the Azure Key Vault Provider for Secrets Store CSI Driver
+# Chapter: Use a user-assigned managed identity https://learn.microsoft.com/en-us/azure/aks/csi-secrets-store-identity-access?WT.mc_id=AZ-MVP-5003548#use-a-user-assigned-managed-identity
+
+########################################
+## COMMON
+########################################
+usePodIdentity: false                                 # [OPTIONAL] if not provided, will default to "false"
+useVMManagedIdentity: true                            # [OPTIONAL available for version > 0.0.4] if not provided, will default to "false"

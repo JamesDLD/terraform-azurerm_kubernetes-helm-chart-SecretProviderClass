@@ -1,0 +1,10 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.DS_Store
+*.tfstate.lock.info
+.terraform/
+
+# JetBrains IntelliJ IDEA
+*.iml
+.idea/
